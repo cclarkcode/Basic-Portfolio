@@ -219,7 +219,7 @@ p {
 	
 }
 
-.project1:hover {
+.project1:hover, .project2:hover {
 
 	opacity: .5;
 
@@ -232,11 +232,6 @@ p {
 	padding: 15px 0px 15px 0px;
 	float: right;
 
-}
-
-.project2 {
-
-	opacity: .5;
 }
 
 .image-title {
