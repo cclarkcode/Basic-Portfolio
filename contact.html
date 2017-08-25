@@ -2,56 +2,79 @@
 <html>
 
 <head>
+
 	<title>Christopher Clark</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
-
+	
 	<header>
+		
+		<div id="header-bar">
 
-		<h1> Christopher Clark </h1>
+			<h1 class="top-header"> Christopher Clark </h1>
 
-		<div id="sitenav">
+		</div>
+		
+		<div class="sitenav">
 
-			<a id="about_link" href="index.html"> About </a>
-			<a id="portfolio_link" href="portfolio.html"> Portfolio </a>
-			<a id="contact_link" href="contact.html"> Contact </a>
-			
+			<a href="index.html"> About </a>
+			<a href="portfolio.html"> Portfolio </a>
+			<span id="last"> Contact </span>
+
 		</div>
 
 	</header>
 
-	<div id="contactform">
+	<div class="container">
+	
+	<div class="mainBody">
+
+		
+		<h2> Contact </h2>
+
+		<hr>
 
 		<form action="/assets/actionpage.php">
-		Name: <br>
-		<input class="smalltext" type="text" name="Name" value="John Smith"><br>
+		Name: <br> 
+			<input class="smalltext" type="text" name="Name" value="John Smith">
+		
 		Email: <br>
 		<input class="smalltext" type="text" name="email" value="yourname@gmail.com"> <br>
 		Message: <br>
-		<input class="largetext" name="message"> <br>
-		<input type="submit" name="Submit">
+		<textarea class="largetext" name="message"> </textarea> 
+
+		<br>
+		<input id="Submit-button" type="submit" name="Submit" disabled>
 		</form>
 
 	</div>
 
 
 
+	
 	<div id="connect">
 
-		<a href="https://github.com/cclarkcode"> <img id="github" src="assets/images/github.png" alt="Github logo"> </a>
-		<a href="https://github.com/cclarkcode"> <img id="linkedin" src="assets/images/linkedin.png" alt="LinkedIn logo"> </a>
-		<a href="https://stackoverflow.com/users/8408495/chris-clark?tab=profile"> <img id="stack" src="assets/images/stackoverflow.png" alt="Stack Overflow logo"> </a>
+		<h3> Connect with me </h3>
+
+		<hr>
+
+		<a href="https://github.com/cclarkcode" target="_blank"> <img class="connect-image" src="assets/images/github.png" alt="Github logo"> </a>
+		<a href="https://www.linkedin.com/in/Christopher-A-Clark" target="_blank"> <img class="connect-image" src="assets/images/linkedin.png" alt="LinkedIn logo"> </a>
+		<a href="https://stackoverflow.com/users/8408495/chris-clark?tab=profile" target="_blank"> <img class="connect-image" src="assets/images/stackoverflow.png" alt="Stack Overflow logo"> </a>
+
+	</div>
 
 	</div>
 
 	<footer>
 
-		<p>
 			&copy; Copyright 2017 Christopher Clark
 
-		</p>
+		
 	</footer>
-
 
 </body>
 
